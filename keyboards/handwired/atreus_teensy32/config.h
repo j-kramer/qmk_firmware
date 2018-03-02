@@ -26,10 +26,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEVICE_VER      0x0001
 /* in python2: list(u"whatever".encode('utf-16-le')) */
 /*   at most 32 characters or the ugly hack in usb_main.c borks */
-#define MANUFACTURER "j-kramer"
-#define USBSTR_MANUFACTURER   'j', '\x00', '-', '\x00', 'k', '\x00', 'r', '\x00', 'a', '\x00', 'm', '\x00', 'e', '\x00', 'r', '\x00'
-#define PRODUCT "Atreus"
-#define USBSTR_PRODUCT         'A', '\x00', 't', '\x00', 'r', '\x00', 'e', '\x00', 'u', '\x00', 's', '\x00'
+#define MANUFACTURER j-kramer
+#define PRODUCT Atreus
 #define DESCRIPTION "Handwired Atreus with a Teensy 3.2"
 
 /* key matrix size */
