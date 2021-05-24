@@ -1,7 +1,7 @@
 # Handwired Atreus with a Teensy 3.2
 
 This folder contains the code for my handwired Atreus.
-The code is based on the chibios_test/teensy_lc_onekey keyboard and should be mostly compatible with the keymaps from the Atreus Keyboard.
+The code is based on the other teensy 3.2 keyboard and should be mostly compatible with the keymaps from the Atreus Keyboard.
 The matrix is wired as described in the following image from the FalbaTech FAQ with the exception that I used a Teensy 3.2 instead of a Teensy 2.0.
 
 ![matrix](https://falba.tech/wp-content/uploads/2017/10/manual_atreus.jpg)

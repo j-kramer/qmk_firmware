@@ -18,10 +18,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef CONFIG_USER_H
-#define CONFIG_USER_H
-
-#include QMK_KEYBOARD_CONFIG_H
+#pragma once
 
 /* Use I2C or Serial, not both */
 
@@ -36,5 +33,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Keymap specific options */
 #define ONESHOT_TAP_TOGGLE 3
-
-#endif
