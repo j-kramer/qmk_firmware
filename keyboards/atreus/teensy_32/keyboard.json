@@ -1,0 +1,9 @@
+{
+    "matrix_pins": {
+        "cols": ["C2", "C1", "D6", "D5", "B2", "C7", "D4", "D7", "A13", "A12", "D0"],
+        "rows": ["B1", "B0", "C0", "D1"]
+    },
+    "diode_direction": "COL2ROW",
+    "processor": "MK20DX256",
+    "bootloader": "halfkay",
+}

@@ -1,10 +1,10 @@
 # Handwired Atreus with a Teensy 3.2
 
 This folder contains the code for my handwired Atreus.
-The code is based on the other teensy 3.2 keyboard and should be mostly compatible with the keymaps from the Atreus Keyboard.
+The code is based on the other teensy 3.2 keyboard and should be compatible with the keymaps from the Atreus Keyboard.
 The matrix is wired as described in the following image from the FalbaTech FAQ with the exception that I used a Teensy 3.2 instead of a Teensy 2.0.
 
-![matrix](https://falba.tech/wp-content/uploads/2017/10/manual_atreus.jpg)
+![matrix](https://web.archive.org/web/20210203080011if_/https://falba.tech/wp-content/uploads/2017/10/manual_atreus.jpg)
 
 I connected the rows and columns to the Teensy as follows:
 
@@ -30,10 +30,8 @@ I connected the rows and columns to the Teensy as follows:
 |   11   |     23     |
 
 
-Keyboard Maintainer: [You](https://github.com/j-kramer)
+Keyboard Maintainer: [j-kramer](https://github.com/j-kramer)
 
 Make example for this keyboard (after setting up your build environment):
 
-    make handwired/atreus_teensy32:default
-
-See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) then the [make instructions](https://docs.qmk.fm/make_instructions.html) for more information.
+    make atreus/teensy_32:default
